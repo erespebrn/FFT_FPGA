@@ -95,9 +95,7 @@ begin
 	out_re_odd <= pr(2*sample_size-15 downto sample_size-14);
 	out_im_odd <= pi(2*sample_size-15 downto sample_size-14);
 	
-	--out_re_odd <= pr(sample_size-1 downto 0);
-    --out_im_odd <= pi(sample_size-1 downto 0);
-    
+
     process(clk)
     begin
         if(en = '1') then

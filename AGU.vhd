@@ -321,7 +321,6 @@ begin
             web_ddddd   <=  web_dddd;
             web_dddddd  <=  web_ddddd;
             web_ddddddd <=  web_dddddd;
-            --web_dddddddd<=  web_ddddddd;
             web_t         <=  web_ddddddd;
         end if;
     end process;
